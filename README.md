@@ -274,7 +274,7 @@ $$\text{Goal} \longrightarrow \text{Understand} \longrightarrow \text{Plan} \lon
 ### 5.2 Subsystem 2: The Brain — DAG Compilation (`runtime/planner.py`)
 - Translates unstructured intent into a validated Pydantic `DAGPlan` comprising atomic `TaskStep` nodes.
 - **Idempotency Shield**: Generates a deterministic cryptographic token for every state-mutating step:
-  $$\text{Token} = \text{SHA-256}(\text{task\_id} + \text{step\_id} + \text{tool} + \text{canonical\_params})$$
+  `Token = SHA-256(task_id + step_id + tool + canonical_params)`
   This solves the enterprise "Ghost Action" failure mode: if a network drop or database timeout occurs during a payment step, retrying the operation detects the identical token and prevents duplicate financial disbursement.
 
 ### 5.3 Subsystem 3: Deterministic Pre-Execution Policy Gate (`runtime/policy_guard.py`)
