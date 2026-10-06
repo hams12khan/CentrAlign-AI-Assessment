@@ -239,7 +239,7 @@ FACTDA replaces step-by-step guessing with a **Compile-Then-Execute** paradigm:
 | Metric | Sequential ReAct | Kahn's Topological DAG (CentrAlign AI) | Operational Impact |
 | :--- | :--- | :--- | :--- |
 | **Model Invocations** | $N$ round trips ($N$ = step count) | **1 invocation** (upfront compilation) | **2.6x to 8x token reduction** |
-| *Execution Latency* | \(\sum_{i=1}^N (T_{\text{LLM}} + T_{\text{tool}})\) | \(\max(T_{\text{wave} *1}) + \max(T* {\text{wave}_2}) + \dots\) | *4x wall-clock speedup* |
+| *Execution Latency* | \(\sum_{i=1}^N (T_{\text{LLM}} + T_{\text{tool}})\) | \(\max(T_{\text{wave}_1}) + \max(T_{\text{wave}_2}) + \dots\) | *4x wall-clock speedup* |
 | **Deadlock Detection** | None (infinite loops possible) | Graph cycle check (`in_degree > 0`) | Guaranteed termination (`CyclicDependencyError`) |
 | **Fault Isolation** | Mid-sequence failure drops state | Step-level retries & state checkpoints | Deterministic replay and resumption |
 | **Safety Governance** | Prompt instructions (unreliable) | Pre-execution deterministic code gate | Hard RBAC enforcement |
