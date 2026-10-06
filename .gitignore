@@ -1,0 +1,32 @@
+# Bytecode & Caching
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+myenv/
+
+# Environment secrets
+.env
+.env.local
+*.env
+
+# Runtime artifacts & dynamic test outputs
+storage/artifacts/receipt_*.json
+storage/artifacts/audit_dossier_*.md
+storage/artifacts/evidence_screenshot_*.png
+storage/sandbox/audit_logs/*
+!storage/sandbox/audit_logs/.gitkeep
+
+# Databases (auto-seeded upon execution)
+storage/data/*.db
+storage/data/*.db-journal
+storage/data/*.duckdb
+
+# OS Files
+.DS_Store
+Thumbs.db

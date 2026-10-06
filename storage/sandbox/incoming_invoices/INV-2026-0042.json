@@ -1,0 +1,12 @@
+{
+  "invoice_id": "INV-2026-0042",
+  "po_id": "PO-2026-9011",
+  "vendor_name": "Acme Industrial Supplies",
+  "total_amount": 1250.0,
+  "line_items": [
+    {
+      "item": "Industrial Bearings",
+      "amount": 1250.0
+    }
+  ]
+}

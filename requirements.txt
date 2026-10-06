@@ -1,0 +1,26 @@
+# CentrAlign AI - Autonomous Employee Runtime
+# Production Dependencies
+
+# Data & Settings
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+python-dotenv>=1.0.0
+
+# LLM Providers (Free / Open-Source Stack)
+groq>=1.7.0
+google-genai>=2.28.0
+httpx>=0.28.0
+
+# Enterprise Databases & Analytics
+duckdb>=1.2.0
+
+# Browser Automation & Vision
+playwright>=1.49.0
+pillow>=11.0.0
+
+# Presentation Dashboard & CLI
+streamlit>=1.42.0
+rich>=13.9.0
+
+# Testing & Quality
+pytest>=8.3.0
