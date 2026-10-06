@@ -54,7 +54,7 @@ Reviewers can verify and run the complete autonomous runtime in under 30 seconds
 ```bash
 # 1. Clone repository and navigate to runtime directory
 git clone https://github.com/hams12khan/CentrAlign-AI-Assessment.git
-cd ai_employee_runtime
+cd CentrAlign-AI-Assessment
 
 # 2. Install dependencies
 pip install -r requirements.txt
