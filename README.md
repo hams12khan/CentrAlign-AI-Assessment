@@ -10,7 +10,7 @@
 
 **An auditable, self-contained, and fault-tolerant digital employee runtime replacing fragile sequential chatbots with Kahn's DAG topological scheduling, pre-execution RBAC guardrails, hybrid enterprise tools, dual-tier outcome verification, and cryptographic evidence receipts.**
 
-**Author**: [Hammad Khan](https://github.com/) (*Applied Scientist Intern, Amazon Central ML | M.S. by Research, IIT Bhubaneswar*)
+**Author**: [Hammad Khan]((https://github.com/hams12khan)) (*Applied Scientist Intern, Amazon Central ML | M.S. by Research, IIT Bhubaneswar*)
 
 [System Overview](#1-system-overview) • [Quickstart & Verification](#2-quickstart--verification-offline--live) • [System Architecture](#3-architecture--data-flow) • [Kahn's DAG vs. ReAct](#4-design-rationale-kahns-topological-dag-vs-sequential-react) • [Execution Lifecycle](#5-execution-lifecycle--core-subsystems) • [Scenarios & Tools](#6-supported-scenarios--tool-matrix) • [Code Navigation & Rubric](#7-codebase-navigation--evaluation-rubric-mapping) • [Limitations & Roadmap](#8-known-limitations--production-roadmap)
 
